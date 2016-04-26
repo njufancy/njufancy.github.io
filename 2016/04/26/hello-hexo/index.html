@@ -43,6 +43,10 @@ Code test
 123456#include &amp;lt;iostream&amp;gt;using namespace std;int main()&amp;#123;	cout &amp;lt;&amp;lt; &amp;quot;hello hexo&amp;quot; &amp;lt;&amp;lt;endl;	return 0;&amp;#125;">
 <meta name="twitter:image" content="http://7xtefi.com2.z0.glb.clouddn.com/0416.jpeg">
   
+    <link rel="alternative" href="/atom.xml" title="Njufancy&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -55,7 +59,7 @@ Code test
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img src="undefined" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
+			<img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
 			
 		</a>
 
@@ -68,6 +72,39 @@ Code test
 		
 
 		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						
+						<li>Über</li>
+						
+					</ul>
+				</div>
+			</div>
+		
 
 		<div class="switch-area">
 			<div class="switch-wrap">
@@ -75,19 +112,43 @@ Code test
 					<nav class="header-menu">
 						<ul>
 						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+							<li><a href="/tags/随笔">随笔</a></li>
+				        
 						</ul>
 					</nav>
 					<nav class="header-nav">
 						<div class="social">
 							
+								<a class="github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
+					        
 						</div>
 					</nav>
 				</section>
 				
 				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/test/" style="font-size: 10px;">test</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+					</div>
+				</section>
+				
 				
 				
 
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">一切意义都寓于过程。</div>
+				</section>
 				
 			</div>
 		</div>
@@ -105,7 +166,7 @@ Code test
 		<header id="header" class="inner">
 			<div class="profilepic">
 			
-				<img src="undefined" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
+				<img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
 			
 			</div>
 			<hgroup>
@@ -117,12 +178,24 @@ Code test
 			<nav class="header-menu">
 				<ul>
 				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+					<li><a href="/tags/随笔">随笔</a></li>
+		        
 		        <div class="clearfix"></div>
 				</ul>
 			</nav>
 			<nav class="header-nav">
 				<div class="social">
 					
+						<a class="github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
+			        
 				</div>
 			</nav>
 		</header>				
@@ -138,6 +211,8 @@ Code test
     </div>
   
   <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
     
     
       <header class="article-header">
@@ -220,18 +295,20 @@ Code test
 </footer>
     </div>
     
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
 
 <script>
 	var yiliaConfig = {
-		fancybox: undefined,
-		mathjax: undefined,
-		animate: undefined,
+		fancybox: true,
+		mathjax: true,
+		animate: true,
 		isHome: false,
 		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
-		open_in_new: undefined
+		open_in_new: false
 	}
 </script>
 <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
@@ -240,6 +317,27 @@ Code test
 
 
 
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
   </div>
