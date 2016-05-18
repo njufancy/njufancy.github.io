@@ -20,7 +20,7 @@ Names Considered UsefulSoftware is written for people to understand; variable na
 Names Considered UsefulSoftware is written for people to understand; variable names should be chosen accorrdingly. People need to c">
 <meta property="og:image" content="http://7xtefi.com1.z0.glb.clouddn.com/var.png?imageMogr2/thumbnail/!80p">
 <meta property="og:image" content="http://7xtefi.com2.z0.glb.clouddn.com/wanqu-logo-2.png?imageMogr2/thumbnail/!2p">
-<meta property="og:updated_time" content="2016-05-18T11:28:54.000Z">
+<meta property="og:updated_time" content="2016-05-18T11:43:50.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="A Guide to Naming Variables">
 <meta name="twitter:description" content="尘扬说：对程序猿来说很实用的一篇文章，看下来自己也中了好几枪hhhh，优秀的代码，从优秀的变量命名开始～！具体的自己看吧＝。＝
@@ -331,11 +331,11 @@ Names Considered UsefulSoftware is written for people to understand; variable na
 <p>More generally:</p>
 <ul>
 <li>Pluralize the variable name instead of including the name of a collection type</li>
-<li>If you’re tempted to add a scalar type (int, String, Char) into your variable name, you should either:</li>
-</ul>
-<ul>
+<li>If you’re tempted to add a scalar type (int, String, Char) into your variable name, you should either:<ul>
 <li>Explain better what the variable is</li>
 <li>Explain what transformation you did to derive the new variable (lowercased?)<h1 id="Use-Teutonic-Names-Most-of-The-Time"><a href="#Use-Teutonic-Names-Most-of-The-Time" class="headerlink" title="Use Teutonic Names Most of The Time"></a>Use Teutonic Names Most of The Time</h1></li>
+</ul>
+</li>
 </ul>
 <p>Most names should be Teutonic, following the spirit of languages like Norwegian, rather than the elliptical vagueness of Romance languages like English. Norwegian has more words like tannlege (literally “tooth doctor”) and sykehus (literally “sick house”), and fewer words like dentist and hospital (which don’t break down into other English words, and are thus confusing unless you already know their meaning). You should strive to name your variables in the Teutonic spirit: straightforward to understand with minimal prior knowledge.</p>
 <p>Another way to think about Teutonic naming is to be as specific as possible without being incorrect. For example, if a function is hard-coded to only check for CPU overload, then name it overloadedCPUFinder, not unhealthyHostFinder. While it may be used to find unhealthy hosts, unhealthyHostFinder makes it sound more generic that it actually is.<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// GOOD</span></span><br><span class="line">Set&lt;Host&gt; overloadedCPUs = hostStatsTable.search(overCPUUtilizationThreshold);</span><br><span class="line"><span class="comment">// BAD</span></span><br><span class="line">Set&lt;Host&gt; matches = hostStatsTable.search(criteria);</span><br><span class="line"></span><br><span class="line"><span class="comment">// GOOD</span></span><br><span class="line">List&lt;String&gt; lowercasedNames = people.apply(Transformers.toLowerCase());</span><br><span class="line"><span class="comment">// BAD</span></span><br><span class="line">List&lt;String&gt; newstrs = people.apply(Transformers.toLowerCase());</span><br><span class="line"></span><br><span class="line"><span class="comment">// GOOD</span></span><br><span class="line"><span class="function">Set&lt;Host&gt; <span class="title">findUnhealthyHosts</span><span class="params">(Set&lt;Host&gt; droplets)</span> </span>&#123;  &#125;</span><br><span class="line"><span class="comment">// BAD</span></span><br><span class="line"><span class="function">Set&lt;Host&gt; <span class="title">processHosts</span><span class="params">(Set&lt;Host&gt; hosts)</span> </span>&#123;  &#125;</span><br></pre></td></tr></table></figure></p>
