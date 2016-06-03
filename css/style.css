@@ -1625,7 +1625,7 @@ pre .css ~ * .id {
   color: #fd971f;
 }
 #footer {
-  font-size: 12px;
+  font-size: 15px;
   font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
   text-shadow: 0 1px #fff;
   position: absolute;
@@ -1642,6 +1642,9 @@ pre .css ~ * .id {
 }
 .footer-right {
   float: right;
+}
+.footer-center {
+  float: center;
 }
 .share {
   padding: 0px 75px 30px 40px;
