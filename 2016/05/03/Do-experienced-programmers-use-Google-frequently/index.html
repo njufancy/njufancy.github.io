@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>Do experienced programmers use Google frequently? | Njufancy&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="尘扬说：很有意思的一个话题哈哈，有经验的程序猿是不是也会在工作的时候时常用Google呢？答案是YES!在工作的时候想把所有的细节啊方法啊全记住太费脑细胞，还不如用的时候去查；况且一般来说，自己总不会是第一个遇到相同问题的人，到Google上找一下前人的经验，总是能事半功倍吧～不过就算是Google帮忙，也不是简单的ctrlc＋ctrlv解决的，查到的东西只是提供个思路罢了，真正适合自己的解决方">
@@ -23,187 +22,201 @@
     <link rel="alternative" href="/atom.xml" title="Njufancy&#39;s Blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
   
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
 </head>
-
 <body>
   <div id="container">
     <div class="left-col">
-    <div class="overlay">
-	<img src="http://7xtefi.com1.z0.glb.clouddn.com/sunset_224-wallpaper-1920x1080_%E5%89%AF%E6%9C%AC.jpg" />
-</div>
-
+    <div class="overlay"></div>
 <div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
-			
-		</a>
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
+            
+        </a>
 
-		<hgroup>
-		  <h1 class="header-author"><a href="/">Chenyang Fan</a></h1>
-		</hgroup>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Chenyang Fan</a></h1>
+        </hgroup>
 
-		
-		<p class="header-subtitle">Be a better man.</p>
-		
+        
+        <p class="header-subtitle">Be a better man.</p>
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
 
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>Menu</li>
-						<li>Tags</li>
-						
-						<li>Links</li>
-						
-						
-						<li>About</li>
-						
-					</ul>
-				</div>
-			</div>
-		
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">首页</a></li>
+                        
+                            <li><a href="/archives">所有文章</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
+                            
+                                <a class="fl zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
+                            
+                                <a class="fl weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/湾区日报/" style="font-size: 20px;">湾区日报</a> <a href="/tags/阅读/" style="font-size: 20px;">阅读</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://braydenliu.github.io">鹅厂OMG第一帅</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://devinever.com">鹅厂MIG第一帅</a>
+                    
+                    </div>
+                </section>
+                
 
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">所有文章</a></li>
-				        
-							<li><a href="/tags/随笔">随笔</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
-					        
-								<a class="weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
-					        
-								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
-					        
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/湾区日报/" style="font-size: 20px;">湾区日报</a> <a href="/tags/阅读/" style="font-size: 20px;">阅读</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://braydenliu.github.io">鹅厂OMG第一帅</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://devinever.com">鹅厂MIG第一帅</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-				
-				<section class="switch-part switch-part4">
-				
-					<div id="js-aboutme">一只船孤独地航行在海上/它既不寻求幸福/也不逃避幸福/它只是向前航行/底下是沉静碧蓝的大海/而头顶是金色的太阳</div>
-				</section>
-				
-			</div>
-		</div>
-	</header>	
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">一只船孤独地航行在海上/它既不寻求幸福/也不逃避幸福/它只是向前航行/底下是沉静碧蓝的大海/而头顶是金色的太阳</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
 </div>
-
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">Chenyang Fan</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-			
-				<img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
-			
-			</div>
-			<hgroup>
-			  <h1 class="header-author">Chenyang Fan</h1>
-			</hgroup>
-			
-			<p class="header-subtitle">Be a better man.</p>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives">所有文章</a></li>
-		        
-					<li><a href="/tags/随笔">随笔</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
-			        
-						<a class="weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
-			        
-						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
-			        
-				</div>
-			</nav>
-		</header>				
-	</div>
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Chenyang Fan</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="http://7xtefi.com2.z0.glb.clouddn.com/e4758535e5dde7111d55ba67a7efce1b9c1661b7.jpg" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Chenyang Fan</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">Be a better man.</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">首页</a></li>
+                
+                    <li><a href="/archives">所有文章</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="github" target="_blank" href="https://github.com/njufancy" title="github">github</a>
+                    
+                        <a class="zhihu" target="_blank" href="https://www.zhihu.com/people/fan-chen-yang" title="zhihu">zhihu</a>
+                    
+                        <a class="weibo" target="_blank" href="http://www.weibo.com/2620286472/profile?topnav=1&wvr=6" title="weibo">weibo</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
 </nav>
-
       <div class="body-wrap"><article id="post-Do-experienced-programmers-use-Google-frequently" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/05/03/Do-experienced-programmers-use-Google-frequently/" class="article-date">
-  	<time datetime="2016-05-03T13:04:56.000Z" itemprop="datePublished">2016-05-03</time>
+      <time datetime="2016-05-03T13:04:56.000Z" itemprop="datePublished">2016-05-03</time>
 </a>
     </div>
   
@@ -224,11 +237,11 @@
       
       <div class="article-info article-info-post">
         
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/湾区日报/">湾区日报</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/阅读/">阅读</a></li></ul>
-	</div>
 
         
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/湾区日报/">湾区日报</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/阅读/">阅读</a></li></ul>
+    </div>
 
         <div class="clearfix"></div>
       </div>
@@ -236,6 +249,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
+          
         <blockquote>
 <p><strong>尘扬说：</strong>很有意思的一个话题哈哈，有经验的程序猿是不是也会在工作的时候时常用Google呢？答案是YES!在工作的时候想把所有的细节啊方法啊全记住太费脑细胞，还不如用的时候去查；况且一般来说，自己总不会是第一个遇到相同问题的人，到Google上找一下前人的经验，总是能事半功倍吧～<br>不过就算是Google帮忙，也不是简单的ctrlc＋ctrlv解决的，查到的东西只是提供个思路罢了，真正适合自己的解决方案，还是需要自己去总结思考呐。只能说，准确的信息检索的能力也是程序猿实力的一部分吧哈哈😄</p>
 </blockquote>
@@ -263,6 +277,24 @@
   </div>
   
     
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/05/03/Do-experienced-programmers-use-Google-frequently/">Do experienced programmers use Google frequently?</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Chenyang Fan 的个人博客">Chenyang Fan</a></p>
+        <p><span>发布时间:</span>2016年05月03日 - 21时04分</p>
+        <p><span>最后更新:</span>2016年05月03日 - 21时24分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/05/03/Do-experienced-programmers-use-Google-frequently/" title="Do experienced programmers use Google frequently?">http://yoursite.com/2016/05/03/Do-experienced-programmers-use-Google-frequently/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/05/03/Do-experienced-programmers-use-Google-frequently/　　作者: Chenyang Fan" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
 <nav id="article-nav">
   
     <a href="/2016/05/08/Questions-to-ask-your-interviewer/" id="article-nav-newer" class="article-nav-link-wrap">
@@ -285,114 +317,250 @@
   
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">  
+Software developers, especially those who are new to the field, often ask this question or at least wonder whether they are good developers or just good at googling up solutions.“Do experienced programmers use Google frequently?”The resounding answer is YES, experienced (and good) programmers use Google… a lot. In fact, one might argue they use it more than the beginners. Using Google doesn’t make them bad programmers or imply that they cannot code without Google. In fact, truth is quite the opposite: Google is an essential part of their software development toolkit and they know when and how to use it.A big reason to use Google is that it is hard to remember all those minor details and nuances especially when you are programming in multiple languages and using dozens of frameworks. As Einstein said:
+
+
+“Never memorize something that you can look up.” - Albert Einstein
+
+Aside from that, good programmers also know that they cannot be the first one to have encountered a problem. They use Google to research possible solutions, carefully evaluating the results and consciously separating the wheat from the chaff; they don’t blindly follow or copy-paste any solution they come across. Expert programmers are also paranoid, living in self-doubt and questioning their competence. Whenever their spidey senses start tingling, they know they may be going the wrong hole; they rely on Google on validate their logic.Going by the definition, I would be considered an experienced programmer. Recently, I had to write web server using Netty in Java to handle persistent sockets from mobile games. I had never used Netty before. Here are my Google searches I did:
 
 
 
+netty tutorial 2. netty maven dependency 3. netty bytebuf to string 4. netty bytebuf release 5. netty 4 changes 6. setOption(“child.bufferFactory”) netty 4 7. ByteBuf netty 8. opensource projects using netty framework 9. netty 4 examples 10. netty 4 adding json encoder 11. netty channel pipeline 12. netty 4 messagetomessage encoder 13. netty serverbootstrap childhandler 14. ByteBuf netty 15. lengthfieldbasedframedecoder netty 4 16. netty 4 client examples 17. netty 4 bytebuf to bytebuffer 18. netty 4 endianness 19. netty channelhandlercontext 20. netty channelhandlercontext thread safe 21. netty user authentication 22. netty heartbeat handling 23. load test netty with 10k concurrent sockets
 
 
-<div class="duoshuo">
-	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="Do-experienced-programmers-use-Google-frequently" data-title="Do experienced programmers use Google frequently?" data-url="http://yoursite.com/2016/05/03/Do-experienced-programmers-use-Google-frequently/"></div>
-	<!-- 多说评论框 end -->
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"true"};
-	(function() {
-		var ds = document.createElement('script');
-		ds.type = 'text/javascript';ds.async = true;
-		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-		ds.charset = 'UTF-8';
-		(document.getElementsByTagName('head')[0] 
-		 || document.getElementsByTagName('body')[0]).appendChild(ds);
-	})();
-	</script>
-	<!-- 多说公共JS代码 end -->
+I wrote 255 lines of code that included a working server and a client. I queried google 23 times mostly landing on StackOverflow, Netty 4 website, GitHub, and JavaDocs. If you do the math, that averages out to 1 query every 10 lines of code! I had no idea. Let me know in the comments what your average is.So sit back, relax and remember that Google is software developer’s best friend.
+
+ 来自湾区日报  
+ 原文链接：Do experienced programmers use Google frequently? 
+</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">
+Software developers, especially those who are new to the field, often ask this question or at least wonder whether they are good developers or just good at googling up solutions.“Do experienced programmers use Google frequently?”The resounding answer is YES, experienced (and good) programmers use Google… a lot. In fact, one might argue they use it more than the beginners. Using Google doesn’t make them bad programmers or imply that they cannot code without Google. In fact, truth is quite the opposite: Google is an essential part of their software development toolkit and they know when and how to use it.A big reason to use Google is that it is hard to remember all those minor details and nuances especially when you are programming in multiple languages and using dozens of frameworks. As Einstein said:
+
+
+“Never memorize something that you can look up.” - Albert Einstein
+
+Aside from that, good programmers also know that they cannot be the first one to have encountered a problem. They use Google to research possible solutions, carefully evaluating the results and consciously separating the wheat from the chaff; they don’t blindly follow or copy-paste any solution they come across. Expert programmers are also paranoid, living in self-doubt and questioning their competence. Whenever their spidey senses start tingling, they know they may be going the wrong hole; they rely on Google on validate their logic.Going by the definition, I would be considered an experienced programmer. Recently, I had to write web server using Netty in Java to handle persistent sockets from mobile games. I had never used Netty before. Here are my Google searches I did:
+
+
+
+netty tutorial 2. netty maven dependency 3. netty bytebuf to string 4. netty bytebuf release 5. netty 4 changes 6. setOption(“child.bufferFactory”) netty 4 7. ByteBuf netty 8. opensource projects using netty framework 9. netty 4 examples 10. netty 4 adding json encoder 11. netty channel pipeline 12. netty 4 messagetomessage encoder 13. netty serverbootstrap childhandler 14. ByteBuf netty 15. lengthfieldbasedframedecoder netty 4 16. netty 4 client examples 17. netty 4 bytebuf to bytebuffer 18. netty 4 endianness 19. netty channelhandlercontext 20. netty channelhandlercontext thread safe 21. netty user authentication 22. netty heartbeat handling 23. load test netty with 10k concurrent sockets
+
+
+I wrote 255 lines of code that included a working server and a client. I queried google 23 times mostly landing on StackOverflow, Netty 4 website, GitHub, and JavaDocs. If you do the math, that averages out to 1 query every 10 lines of code! I had no idea. Let me know in the comments what your average is.So sit back, relax and remember that Google is software developer’s best friend.
+
+ 来自湾区日报  
+ 原文链接：Do experienced programmers use Google frequently? 
+</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text"> 来自湾区日报  
+ 原文链接：Do experienced programmers use Google frequently? 
+</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">4.</span> <span class="toc-text">
+ 原文链接：Do experienced programmers use Google frequently? 
+</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">5.</span> <span class="toc-text"> 原文链接：Do experienced programmers use Google frequently? 
+</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">6.</span> <span class="toc-text">
+</span></a></li></ol>
 </div>
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
 
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:'njufancy'};
-      (function() {
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+        }
+    })
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+    }
+</script>
+
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/05/03/Do-experienced-programmers-use-Google-frequently/" data-title="Do experienced programmers use Google frequently?" data-url="http://yoursite.com/2016/05/03/Do-experienced-programmers-use-Google-frequently/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"njufancy"};
+    (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.src = '/js/embed.js';
         ds.charset = 'UTF-8';
         (document.getElementsByTagName('head')[0] 
          || document.getElementsByTagName('body')[0]).appendChild(ds);
-      })();
-      </script>
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/05/08/Questions-to-ask-your-interviewer/" title="上一篇: Questions to ask your interviewer">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2016/05/02/And-now-I-unfollow-thee/" title="下一篇: And now, I unfollow thee">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/06/03/Why-I-write-1000-Words-Every-Day/">Why I write 1000 Words Every Day</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/18/A-Guide-to-Naming-Variables/">A Guide to Naming Variables</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/08/Questions-to-ask-your-interviewer/">Questions to ask your interviewer</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/03/Do-experienced-programmers-use-Google-frequently/">Do experienced programmers use Google frequently?</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/05/02/And-now-I-unfollow-thee/">And now, I unfollow thee</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/26/破蛋篇/">破蛋篇</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2016 Chenyang Fan
-    	</div>
-
-     	 <div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 Chenyang Fan
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
         </div>
-
-        <div class="footer-center">
-          <a href="http://www.amazingcounters.com">
-          Total <img border="0" src="http://cc.amazingcounters.com/counter.php?i=3203764&c=9611605" alt="AmazingCounters.com"> Visits
-        </a>
-        </div>
-
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >博客到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
     </div>
-  </div>
 </footer>
+
     </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-
-<script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: false,
-		isPost: true,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
-</script>
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 <script src="/js/main.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 24;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
 
 
 
 
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-
-<div id="totop" style="position:fixed;bottom:100px;right:5px;cursor: pointer;">
-<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
 </div>
-<script src="/js/totop.js"></script>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+
   </div>
 </body>
 </html>
